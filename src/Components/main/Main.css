@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Playwrite DE Grund", cursive;
+    line-height: 1.6;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--text-color);
+    background-color: #77bfa3;
+    /* font-size: 16px;  */
+}
+  
+  h1,h2,
+  h3 {
+    font-weight: bold;
+    /* color: #222; */
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #bfd8bd;
+  }
+  
+  img{
+    border-radius: 20px;
+  }
+  
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #9e9e9e; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+  }
+  
+  #about {
+    /* background-color: #fff; */
+    background-color: #bfd8bd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #skills {
+    /* background-color: #fff; */
+    background-color: #bfd8bd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #experience {
+    background-color: #bfd8bd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* #projects{
+    background-color: var(--accent-color);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .project-card {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+  } */
+  
+  
+  #projects {
+    background-color:  #bfd8bd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* added */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+  }
+  
+  #p{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project-container {
+    padding: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 20px;
+  }
+  .project-card {
+    /* margin-bottom: 20px; */
+    /* flex: 0 0 20%;  */
+    width: 250px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 35px;
+    margin: 20px 20px;
+    background-color: #edeec9;
+    transform: scale(1);
+  }
+  
+  .project-card:hover{
+    transform: scale(1.1);
+    transition:  transform 1.0s ease-in-out;
+  
+    background-color: black;
+    color: white;
+  }
+  
+  .project-card:last-child {
+    border-bottom: none;
+  }
+  
+  #contact {
+    background-color:#bfd8bd ;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color:#4e2219 ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--accent-color);
+  }
+
+
+  
+  /* Additional Styles */
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
